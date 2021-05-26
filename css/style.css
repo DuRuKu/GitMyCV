@@ -1,6 +1,11 @@
 /*
 COLOR PALETTE
 https://coolors.co
+middle blue: #7EC4CF
+dark purple: #0F0326
+dim gray: #706563
+royal blue dark: #0B1D51
+deep champagne: #ECCE8E
 */
 
 /* Global styles
@@ -26,7 +31,7 @@ img {
   width: 300px;
 }
 a {
-  color: brown;
+  color: rgb(165, 76, 76);
 }
 a:hover {
   text-decoration: none;
@@ -69,8 +74,72 @@ h2 {
 .divider > section:last-of-type {
   border: none;
 }
+
+header {
+  background: #ecce8e;
+}
+
+/* Navbar */
+.navbar li {
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 5px;
+}
+.topnav {
+  position: relative;
+  background-color: #333;
+}
+.navbar {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar a {
+  color: #0b1d51;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: rgb(231, 219, 52);
+}
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #a1c6d7;
+  background: #7ec4cf;
+}
+
+/*Language skills
+*/
+
+.language {
+  background: #286e79;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background-image: url(/extra/joanna-kosinska-unsplash.jpg);
+  background-position: top right;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #18053b;
+  color: #def3c2;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 5px;
+  display: inline-block;
 }
