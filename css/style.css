@@ -26,10 +26,11 @@ img {
   width: 300px;
 }
 a {
-  color: #ffe66d;
+  color: brown;
 }
 a:hover {
   text-decoration: none;
+  color: aquamarine;
 }
 h1,
 h2 {
