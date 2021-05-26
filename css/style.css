@@ -27,9 +27,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
-img {
-  width: 300px;
-}
+
 a {
   color: rgb(165, 76, 76);
 }
@@ -55,7 +53,7 @@ h2 {
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 .item-details h3 {
   margin-bottom: 0;
@@ -76,7 +74,7 @@ h2 {
 }
 
 header {
-  background: #ecce8e;
+  background: #f5c66f;
 }
 
 /* Navbar */
@@ -96,6 +94,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 0;
 }
 .navbar a {
   color: #0b1d51;
@@ -107,7 +106,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #7ec4cf;
+  background: #2c92a1;
 }
 
 /*Language skills
@@ -116,7 +115,13 @@ header {
 .language {
   background: #286e79;
 }
-
+.box {
+  display: flex;
+  align-items: center;
+}
+.language span {
+  margin: 10px;
+}
 /* Education
 ------------------------------------*/
 .education {
@@ -142,4 +147,7 @@ footer {
 .contact-list a {
   padding: 5px;
   display: inline-block;
+}
+.email a {
+  color: #f5c66f;
 }
