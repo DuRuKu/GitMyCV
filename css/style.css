@@ -12,6 +12,7 @@ deep champagne: #ECCE8E
 ------------------------------------*/
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *:before,
@@ -48,7 +49,6 @@ h1 {
 h2 {
   font-size: 45px;
 }
-
 .content-wrap {
   max-width: 800px;
   width: 85%;
@@ -72,11 +72,9 @@ h2 {
 .divider > section:last-of-type {
   border: none;
 }
-
 header {
   background: #f5c66f;
 }
-
 /* Navbar */
 .navbar li {
   display: inline;
